@@ -1,0 +1,7 @@
+fun [char] main() = 
+    let a = 10 in 
+    let b = 10 in 
+    let c = 5 in 
+        if (a==b) && (b==c) 
+        then write("yahhhhhh") 
+        else write("Noooooooooo")

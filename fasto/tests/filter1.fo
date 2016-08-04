@@ -1,0 +1,8 @@
+fun bool great(char n) = 'a' == n || 'A' == n
+
+fun char writeInt(char n) = write(n)
+
+fun [char] main() =
+  let a = filter(great, {'s','a','c','e','r','a','A'}) in
+  map(writeInt, a)
+                       

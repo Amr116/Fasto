@@ -1,0 +1,6 @@
+fun [char] main() = 
+    let a = ~1 in
+    let b = ~1 in
+    if a/b == 1 
+    then write("Negate is working\n")
+    else write("Negate does not work\n")

@@ -1,0 +1,7 @@
+fun [char] main() = 
+    let a = 10 in 
+    let b = 5 in 
+    let c = a/b in
+    if (c == 3 ) || (c==2) 
+        then write ("fucking woring")
+        else write("does not work")

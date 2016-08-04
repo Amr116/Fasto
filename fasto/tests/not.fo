@@ -1,0 +1,4 @@
+fun bool main() =
+    let a = 11 in
+    let b = (not (a==10)) in
+    write(b)

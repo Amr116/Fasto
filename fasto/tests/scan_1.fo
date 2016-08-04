@@ -1,0 +1,9 @@
+fun char incr(char a, char b) = 'a'+'b'
+
+fun int writeInt(int n) = write(n)
+ 
+fun [char] main() =
+  let a = {'c','d', 'e'} in
+  let b = scan(incr, 'i', a) in
+   map(writeInt, b)
+                                  
